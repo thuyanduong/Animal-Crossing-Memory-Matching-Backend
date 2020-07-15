@@ -11,4 +11,8 @@ class UsersController < ApplicationController
   def destroy
     render json: User.find(params[:id]).destroy
   end
+
+  def version
+    render json: {version: "Daisy"}
+  end
 end
