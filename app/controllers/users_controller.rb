@@ -7,4 +7,8 @@ class UsersController < ApplicationController
   def index
     render json: User.high_scores
   end
+
+  def destroy
+    render json: User.find(params[:id]).destroy
+  end
 end
