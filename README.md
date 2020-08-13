@@ -1,4 +1,12 @@
-# README
+# Demo of the Full App
+
+https://animal-crossing-memory-match.herokuapp.com/
+
+### Link to Front End Repo
+
+https://github.com/thuyanduong/Animal-Crossing-Memory-Matching
+
+# About the Back End
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
